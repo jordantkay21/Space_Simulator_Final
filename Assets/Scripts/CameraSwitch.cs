@@ -64,7 +64,7 @@ public class CameraSwitch : MonoBehaviour
 
     void CockpitActivation()
     {
-        if (_thirdPOV.activeSelf == true)
+        if (_thirdPOV.activeSelf == true || _cinamaticShots.activeSelf == true)
         {
             _cockpit.SetActive(false);
         }
