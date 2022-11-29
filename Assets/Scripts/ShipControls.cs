@@ -33,9 +33,9 @@ public class ShipControls : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.T))
         {
             _currentSpeed++;
-            if (_currentSpeed > 4)
+            if (_currentSpeed > 10)
             {
-                _currentSpeed = 4;
+                _currentSpeed = 10;
             }
         }
 
