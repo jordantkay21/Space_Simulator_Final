@@ -81,7 +81,7 @@ public class CameraSwitch : MonoBehaviour
             IdleTimer += Time.deltaTime;
         }
 
-        if (IdleTimer >= 5 && _hasMouseMoved == false)
+        if (IdleTimer >= 20 && _hasMouseMoved == false)
         {
             _cinamaticShots.SetActive(true);
         }
